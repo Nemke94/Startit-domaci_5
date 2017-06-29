@@ -1,0 +1,22 @@
+article {
+	width: 80%;
+	max-width: 700px;
+	background-color: #254879;
+	margin: 0 auto;
+}
+
+.cover {
+	background-image: url(http://uramljivanjeslika.rs/wp-content/uploads/2013/05/slike-zivotinje.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 100px;
+
+}
+
+.post-content {
+	padding: 6px;
+}
+h1 {
+	text-align: center;
+}

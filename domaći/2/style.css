@@ -1,0 +1,72 @@
+body {
+	padding: 15%;
+	margin-left: 6%;
+}
+
+
+#cover {
+	background-image: url("https://www.dijeta.net/wp-content/uploads/2016/10/voce-i-vocni-proizvodi.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 150px;
+}
+
+#cover1 {
+	background-image: url("http://www.prevention.com/sites/prevention.com/files/getty-159628726-johner-images-opener.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 150px;
+}
+
+#cover2 {
+	background-image: url("http://loveandbewell.com/wp-content/uploads/2017/01/3_-min-795x544.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 150px; 
+}
+
+.content {
+	display: flex;
+	text-align: center;
+	font-size: 8px;
+	position: relative;
+	margin: 3px;
+	margin-top: 0px;
+	padding: 25px;
+	background-color: #fff;
+}
+
+.content::before {
+	content: "\f18c";
+	font-family: FontAwesome;
+	font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    color: #00ff00;
+    text-align: center;
+    text-decoration: inherit;
+	width: 65px;
+	height: 65px;
+	background-color: #fff;
+	position: absolute;
+	top: -30px;
+	left: 140px;
+	margin-left: -50px;
+	border-radius: 100%;
+}
+
+#conteiner {
+	background-color: #D3D3D3;
+	margin: 0 auto;
+	max-width: 1000px;
+	min-height: 100px;
+	text-align: center;
+	display: inline-block;
+}
+
+.box {
+	display: inline-block;
+}
